@@ -9,10 +9,6 @@
     "publish-demo": "node ./publish-demo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mazipan/bulma-resume-template.git"
-  },
   "keywords": [
     "bulma",
     "css-template",
