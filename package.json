@@ -4,7 +4,7 @@
   "description": "💼 Free resume page template with bulma css",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf ./dist && cross-env NODE_ENV=production webpack --color --progress --hide-modules",
+    "build": "cross-env NODE_ENV=development webpack-dev-server --hot --color --open",
     "start": "node server.js",
     "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --color --open",
